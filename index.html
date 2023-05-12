@@ -4,10 +4,12 @@
 <head>
 	<style>
 	body{
-	 background-color:grey;
-	 display:flex;
-	 	
+	 background-color:grey;	
 	}
+		.flex-contain{
+		display:flex;
+	 flex-direction:column;
+		}	
 	.animation{
 	 width: 200px;
 	 height: 200px;
@@ -33,10 +35,12 @@
 </head>
 <body>
 	<h1> Welcome to this odd thing im making keep watching to see what happens</h1>
-	<div id="animation"></div>
-	<div id="head">
+	<div class="flex-contain">
+	<div class="animation"></div>
+	<div class="head">
 	<h2> The site that has little but will get more added to it </h1>
 	<p> Ello this is just a site that says hi </p>
 	</div>
+	</div>	
 </body>
 </html>
