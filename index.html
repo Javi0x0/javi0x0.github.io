@@ -5,22 +5,37 @@
 	<style>
 	body{
 	 background-color:grey;
+	 display:flex;
+	 	
+	}
+	.animation{
+	 width: 200px;
+	 height: 200px;
+	 background-color:black;
+	 animation-name: snek;
+	 animation-duration: 6s;
 	}
 	div{
-	background-color:white;
+	background-color:white;	
 	width: 300px;
 	height:50%;
 	border: 1px solid;
 	overflow: scroll;
 	}
 	.div > h1,p {
-	background-image: url("snek.jpg");
+	
 	}
+		@keyframes snek{
+			from {background-color: black;}
+			to {background-color:white; background-image: url("snek.jpg");}
+		}	
 	</style>
 </head>
 <body>
+	<h1> Welcome to this odd thing im making keep watching to see what happens</h1>
+	<div id="animation"></div>
 	<div id="head">
-	<h1> The site that has little but will get more added to it </h1>
+	<h2> The site that has little but will get more added to it </h1>
 	<p> Ello this is just a site that says hi </p>
 	</div>
 </body>
